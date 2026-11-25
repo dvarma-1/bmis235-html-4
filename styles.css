@@ -85,7 +85,7 @@ footer {
 .blk-banner p { font-size: 30px; margin: 0 auto 24px auto; }
 .blk-button {
     display: inline-block;
-    background-color: white;
+    background-color: #FFFEF2;
     color: lightblue;              /* same brand color */
     padding: 12px 24px;
     border-radius: 8px;
