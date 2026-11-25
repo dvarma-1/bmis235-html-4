@@ -92,19 +92,23 @@ footer {
     font-weight: bold;
     text-decoration: none;
 }
-/* GALLERY */
-.blk-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 16px;
+/* CARDS */
+.blk-cards {
+    display: flex;
+    flex-wrap: wrap;             /* lets the cards stack on a phone */
+    gap: 20px;
+    justify-content: center;
     margin: 30px auto;
     max-width: 900px;
 }
-.blk-gallery figure { margin: 0; }
-.blk-gallery img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;           /* crops photos to the same shape */
-    border-radius: 10px;
+.blk-card {
+    flex: 1 1 240px;
+    background-color: white;
+    border: 2px solid #dddddd;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
 }
-.blk-gallery figcaption { text-align: center; font-size: 13px; margin-top: 8px; }
+.blk-card img { width: 100%; height: 160px; object-fit: cover; }
+.blk-card h3 { margin: 14px 0 6px 0; }
+.blk-card p { margin: 0 16px 18px 16px; }
