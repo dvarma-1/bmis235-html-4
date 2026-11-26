@@ -73,7 +73,7 @@ footer {
 }
 /* BANNER */
 .blk-banner {
-    background-color: lightblue;   /* change to your brand color */
+    background-color:lightblue;   /* change to your brand color */
     color: white;
     text-align: center;
     padding: 60px 20px;
@@ -86,7 +86,7 @@ footer {
 .blk-button {
     display: inline-block;
     background-color:#141433 ;
-    color: #lightblue;              /* same brand color */
+    color:lightblue;              /* same brand color */
     padding: 12px 24px;
     border-radius: 8px;
     font-weight: bold;
