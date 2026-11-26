@@ -103,7 +103,7 @@ footer {
 }
 .blk-card {
     flex: 1 1 240px;
-    background-color: lightblue;
+    background-color:#141433;
     border: 2px solid #dddddd;
     border-radius: 12px;
     overflow: hidden;
