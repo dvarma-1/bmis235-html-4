@@ -125,3 +125,12 @@ footer {
 }
 .blk-faq summary { font-weight: bold; cursor: pointer; color:#141433; }
 .blk-faq p { margin: 10px 0 0 0; }
+
+  height: auto;
+}
+.site-link {
+  display: block;
+  text-align: center;
+  color:lightblue;
+}
+
