@@ -123,5 +123,5 @@ footer {
     margin-bottom: 10px;
     background-color:#FEFBEA;
 }
-.blk-faq summary { font-weight: bold; cursor: pointer; }
+.blk-faq summary { font-weight: bold; cursor: pointer; color:#141433; }
 .blk-faq p { margin: 10px 0 0 0; }
